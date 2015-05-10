@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>plex</Name>
-  <Description>Put a container Desctiption here.</Description>
-  <Registry>https://registry.hub.docker.com/u/lonix/plex/</Registry>
-  <Repository>lonix/plex:latest</Repository>
+  <Description>
+    Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
+
+ [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+ [b]PLEXPASS[/b] Set to 0 if you do not have a plexpass subscription. [br]
+ [b]PGID\PUID[/b] This is the user\group id plex should run under. [br]
+ [b]/config[/b] WHere plex should store settings and metadata\logs and configuration[br]
+ [b]/media[/b] Map this to your media, you can use several submappings here[br]
+   </Description>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/plex/</Registry>
+  <Repository>linuxserver/plex</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -31,44 +39,19 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/series-archive/</HostDir>
-      <ContainerDir>/media/series-archive</ContainerDir>
+      <HostDir>PATH TO MEDIA FOLDER 1</HostDir>
+      <ContainerDir>/media/folder1</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/series-childern/</HostDir>
-      <ContainerDir>/media/series-childern</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/movies/</HostDir>
-      <ContainerDir>/media/movies</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/movies-childern/</HostDir>
-      <ContainerDir>/media/movies-childern</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/music/</HostDir>
-      <ContainerDir>/media/music</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/network/tvshows</HostDir>
-      <ContainerDir>/media/series</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/network/bilder</HostDir>
-      <ContainerDir>/media/pictures</ContainerDir>
+      <HostDir>PATH TO MEDIA FOLDER 2</HostDir>
+      <ContainerDir>/media/folder2</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version>cf9cabf6</Version>
   <WebUI>http://[IP]:32400/web</WebUI>
-  <Banner>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/plex-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/plex-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
