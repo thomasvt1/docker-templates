@@ -40,6 +40,11 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version>cf9cabf6</Version>
   <WebUI>http://[IP]:32400/web</WebUI>
