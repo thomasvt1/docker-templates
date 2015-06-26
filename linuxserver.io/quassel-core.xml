@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>quassel-core</Name>
+  <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.&#13;
+[br][br]&#13;
+&#13;
+ [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]&#13;
+ [b]/config[/b] Where quassel-cores hould store settings, logs and configuration[br]</Description>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/quassel-core/</Registry>
+  <Repository>linuxserver/quassel-core</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4242</HostPort>
+        <ContainerPort>4242</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/quassel-core</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>b17f08ec</Version>
+  <WebUI></WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+  <Beta>False</Beta>
+  <Category>Network:Messenger</Category>
+  <Date>2015-06-26</Date>
+</Container>
