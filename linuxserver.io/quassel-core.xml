@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>quassel-core</Name>
-  <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.&#13;
-[br][br]&#13;
-&#13;
- [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]&#13;
+  <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.
+[br][br]
+
+ [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
  [b]/config[/b] Where quassel-cores hould store settings, logs and configuration[br]</Description>
   <Registry>https://registry.hub.docker.com/u/linuxserver/quassel-core/</Registry>
   <Repository>linuxserver/quassel-core</Repository>
