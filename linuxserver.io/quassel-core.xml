@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>Network:Messenger</Category>
+  <Date>2015-06-29</Date>
   <Name>quassel-core</Name>
   <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical.
 [br][br]
@@ -42,7 +45,4 @@
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/quassel-core-icon.png</Icon>
   <ExtraParams></ExtraParams>
-  <Beta>False</Beta>
-  <Category>Network:Messenger</Category>
-  <Date>2015-06-26</Date>
 </Container>
