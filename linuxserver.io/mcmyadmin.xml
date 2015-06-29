@@ -4,7 +4,7 @@
   <Category>Network:Other Other:</Category>
   <Date>2015-06-29</Date>
   <Name>mcmyadmin</Name>
-  <Description>This is a mcmyadmin container with minecraft+spigot+craftbukkit pre.installed. Default password for webinterface is \"password\" [br][br]
+  <Description>This is a mcmyadmin container with Minecraft, Spigot and Craftbukkit pre-installed. Default password for webinterface is \"password\" [br][br]
 [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
 [b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
 [b]8080[/b] : The web-interface. [br]
