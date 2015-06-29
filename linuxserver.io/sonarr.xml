@@ -6,7 +6,6 @@
   <Name>Sonarr</Name>
   <Description>Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.&#13;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;#13;&#13;
-[b]PGIDPUID[/b] : This is the usergroup id plex should run under. [br]&amp;#13;&#13;
 [b]/config[/b] : Storing all Sonarr config files [br]&amp;#13;&#13;
 [b]/tv[/b] : Point to TV share[br]&amp;#13;&#13;
 [b]8989[/b] : The web-interface. [br]</Description>
