@@ -36,12 +36,12 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/smokeping</HostDir>
+      <HostDir>/mnt/user/appdata/smokeping/config</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/smokeping-data</HostDir>
+      <HostDir>/mnt/user/appdata/smokeping/data</HostDir>
       <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
