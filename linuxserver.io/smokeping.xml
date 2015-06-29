@@ -38,7 +38,7 @@
     <Volume>
       <HostDir>/mnt/user/appdata/smokeping/config</HostDir>
       <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/smokeping/data</HostDir>
