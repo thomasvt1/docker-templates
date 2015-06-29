@@ -4,7 +4,7 @@
 <Category>Network:Management</Category>
 <Date>2015-06-29</Date>
   <Name>smokeping</Name>
-  <Description>mokeping keeps track of your network latency.
+  <Description>Smokeping keeps track of your network latency.
  [br][br]
 [b][u][span style=\\\'color: #E80000;\\\']Configuration[/span][/u][/b][br]
 [b]/config[/b] :Contains the Target file (List of stuff to monitor) [br]
