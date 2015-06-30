@@ -2,15 +2,15 @@
 <Container>
   <Beta>False</Beta>
   <Category></Category>
-  <Date>2015-06-29</Date>
-  <Name></Name>
-  <Description>&#13;
+  <Date>2015-06-30</Date>
+  <Name>NZBGet</Name>
+  <Description>NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players&#13;
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;#13;&#13;
-[b]/config[/b] : Storing all x config files [br]&amp;#13;&#13;
-[b]/tv[/b] : Point to x share[br]&amp;#13;&#13;
-[b]8989[/b] : The web-interface. [br]</Description>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/</Registry>
-  <Repository>linuxserver/</Repository>
+[b]/config[/b] : Storing all NZBGet config files [br]&amp;#13;&#13;
+[b]/downloads[/b] : Point to Downloads location[br]&amp;#13;&#13;
+[b]67889[/b] : The web-interface. [br]</Description>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/nzbget/</Registry>
+  <Repository>linuxserver/nzbget</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -46,9 +46,9 @@
     </Volume>
   </Data>
   <Version>992c565c</Version>
-  <WebUI>http://[ip]:[port:8989]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/</Icon>
+  <WebUI>http://[ip]:[port:67889]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
 
