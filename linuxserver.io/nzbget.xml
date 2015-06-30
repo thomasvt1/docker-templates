@@ -35,7 +35,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir>/mnt/user/appdata/nzbget/</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -46,7 +46,7 @@
     </Volume>
   </Data>
   <Version>992c565c</Version>
-  <WebUI>http://[ip]:[port:6789]/</WebUI>
+  <WebUI>http://[IP]:[PORT:6789]/</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-icon.png</Icon>
   <ExtraParams></ExtraParams>
