@@ -41,12 +41,12 @@
       <Mode>rw</Mode>
     </Volume>
 	<Volume>
-      <HostDir>/</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/movies</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
