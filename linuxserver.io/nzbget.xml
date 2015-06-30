@@ -8,7 +8,7 @@
 [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&amp;#13;&#13;
 [b]/config[/b] : Storing all NZBGet config files [br]&amp;#13;&#13;
 [b]/downloads[/b] : Point to Downloads location[br]&amp;#13;&#13;
-[b]67889[/b] : The web-interface. [br]</Description>
+[b]6789[/b] : The web-interface. [br]</Description>
   <Registry>https://registry.hub.docker.com/u/linuxserver/nzbget/</Registry>
   <Repository>linuxserver/nzbget</Repository>
   <BindTime>true</BindTime>
@@ -27,8 +27,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8989</HostPort>
-        <ContainerPort>8989</ContainerPort>
+        <HostPort>6789</HostPort>
+        <ContainerPort>6789</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -41,12 +41,12 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/tv</ContainerDir>
+      <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version>992c565c</Version>
-  <WebUI>http://[ip]:[port:67889]/</WebUI>
+  <WebUI>http://[ip]:[port:6789]/</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/nzbget-icon.png</Icon>
   <ExtraParams></ExtraParams>
