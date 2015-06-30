@@ -10,7 +10,7 @@
 [b]/downloads[/b] : Point to downloads folder[br]&amp;#13;&#13;
 [b]/movies[/b] : Point to Movies share[br]&amp;#13;&#13;
 [b]5050[/b] : The web-interface. [br]</Description>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/sonarr/</Registry>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/couchpotato/</Registry>
   <Repository>linuxserver/couchpotato</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
