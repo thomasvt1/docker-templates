@@ -9,6 +9,7 @@
 [b]/config[/b] : Storing all NZBGet config files [br]&amp;#13;&#13;
 [b]/downloads[/b] : Point to Downloads location[br]&amp;#13;&#13;
 [b]6789[/b] : The web-interface. [br]</Description>
+<Overview>NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players</Overview>
   <Registry>https://registry.hub.docker.com/u/linuxserver/nzbget/</Registry>
   <Repository>linuxserver/nzbget</Repository>
   <BindTime>true</BindTime>
