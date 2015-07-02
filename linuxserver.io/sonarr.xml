@@ -9,6 +9,7 @@
 [b]/config[/b] : Storing all Sonarr config files [br]&amp;#13;&#13;
 [b]/tv[/b] : Point to TV share[br]&amp;#13;&#13;
 [b]8989[/b] : The web-interface. [br]</Description>
+<Overview>Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.</Overview>
   <Registry>https://registry.hub.docker.com/u/linuxserver/sonarr/</Registry>
   <Repository>linuxserver/sonarr</Repository>
   <BindTime>true</BindTime>
