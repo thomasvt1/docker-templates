@@ -3,6 +3,7 @@
 <Beta>True</Beta>
 <Category>Network:Management</Category>
 <Date>2015-06-29</Date>
+<Support>http://lime-technology.com/forum/index.php?topic=41329.0</Support>
   <Name>smokeping</Name>
   <Description>Smokeping keeps track of your network latency.
  [br][br]
