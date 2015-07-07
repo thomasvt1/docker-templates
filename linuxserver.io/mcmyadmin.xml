@@ -3,6 +3,7 @@
   <Beta>False</Beta>
   <Category>Network:Other Other:</Category>
   <Date>2015-06-29</Date>
+  <Support>http://lime-technology.com/forum/index.php?topic=41332.0</Support>
   <Name>mcmyadmin</Name>
   <Description>This is a mcmyadmin container with Minecraft, Spigot and Craftbukkit pre-installed. Default password for webinterface is \"password\" [br][br]
 [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
