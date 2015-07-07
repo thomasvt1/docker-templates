@@ -4,6 +4,7 @@
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Date>2015-07-03</Date>
   <Name>plex</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=41333.0</Support>
   <Description>
     Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
 
