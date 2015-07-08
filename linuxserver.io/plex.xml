@@ -3,7 +3,10 @@
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <Date>2015-07-08</Date>
-  <Changes>Now Truely autoupdate.</Changes>
+  <Changes>
+  Plex
+  2015-07-08 - Now Truely autoupdate.
+  </Changes>
   <Name>plex</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=41333.0</Support>
   <Description>
