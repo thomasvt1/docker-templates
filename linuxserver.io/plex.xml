@@ -2,11 +2,11 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Date>2015-07-08</Date>
+  <Date>2015-07-09</Date>
   <Changes>
-  Plex
-  2015-07-08 - Now Truely autoupdate.
-  </Changes>
+  [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
+  [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
+  [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
   <Name>plex</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=41333.0</Support>
   <Description>
