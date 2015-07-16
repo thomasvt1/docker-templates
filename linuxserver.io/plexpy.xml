@@ -41,7 +41,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/plex/Library/Application Support/Plex Media Server/Logs/</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/logs</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
