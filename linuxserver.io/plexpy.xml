@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>MediaServer:Other Tools:</Category>
+<Date>2015-07-16</Date> 
+  <Name>plexpy</Name>
+  <Overview>plexpy is a python based statistics manager for plex</Overview>
+  <Changes> [b]16.07.2015:[/b] Initial Release </Changes> 
+  <Description>plexpy is a python based statistics manager for plex&#13;
+&#13;
+. [br]&#13;
+&#13;
+[b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]&#13;
+[b]8181[/b] The webui for Plexpy's webui [br]&#13;
+[b]/config[/b]Storing Configuration and the plexpy database[br]&#13;
+[b]/logs[/b] Map to you plex logs (required for IP logging)[br]&#13;
+</Description>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/plexpy/</Registry>
+  <Repository>linuxserver/plexpy</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8181</HostPort>
+        <ContainerPort>8181</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plex/Library/Application Support/Plex Media Server/Logs/</HostDir>
+      <ContainerDir>/logs</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/plexpy</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>45546b54</Version>
+  <WebUI>http://[IP]:[PORT:8181]/</WebUI>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexpy-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexpy-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
