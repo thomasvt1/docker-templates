@@ -9,7 +9,7 @@
  [br][br]
 [b][u][span style=\\\'color: #E80000;\\\']Configuration[/span][/u][/b][br]
 [b]/config[/b] :Contains the Target file (List of stuff to monitor) [br]
-[b]/data[/b] : Containes all the gathered data.[br]
+[b]/data[/b] : Contains all the gathered data.[br]
 [b]80[/b] : The web-interface. [br]</Description>
   <Registry>https://registry.hub.docker.com/u/linuxserver/smokeping</Registry>
   <Repository>linuxserver/smokeping</Repository>
