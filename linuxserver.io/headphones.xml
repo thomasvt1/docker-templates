@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>False</Beta>
+  <Category>MediaServer:Music</Category>
+  <Date>2015-07-015</Date>
+  <Changes>
+  [b]15.07.2015:[/b] Inital Release.
+  </Changes>
+  <Name>Headphones</Name>
+  <Support>TBA</Support>
+  <Description>
+  Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole. [br]
+
+ [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+ [b]/config[/b] Where headphones should store settings and configuration[br]
+ [b]/downloads[/b] Map this to your downloads folder[br]
+ [b]/music[/b] Map this to your music, you can use several submappings here[br]
+   </Description>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/headphones/</Registry>
+  <Repository>linuxserver/headphones</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/headphones/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>cf9cabf6</Version>
+  <WebUI>http://[IP]:[PORT:8181]/</WebUI>
+  <Banner>http://i.imgur.com/5vSV3Gk.png</Banner>
+  <Icon>http://i.imgur.com/5vSV3Gkl.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
