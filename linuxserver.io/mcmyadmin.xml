@@ -6,10 +6,11 @@
   <Support>http://lime-technology.com/forum/index.php?topic=41332.0</Support>
   <Name>mcmyadmin</Name>
   <Description>This is a mcmyadmin container with Minecraft, Spigot and Craftbukkit pre-installed. Default password for webinterface is \"password\" [br][br]
-[b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
-[b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
-[b]8080[/b] : The web-interface. [br]
-[b]25565[/b] : The minecraft deamon [br]</Description>
+  [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
+  [b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
+  [b]8080[/b] : The web-interface. [br]
+  [b]25565[/b] : The minecraft deamon [br]</Description>
+  <Project>https://www.mcmyadmin.com</Project>
   <Registry>https://registry.hub.docker.com/u/linuxserver/mcmyadmin/</Registry>
   <Repository>linuxserver/mcmyadmin</Repository>
   <BindTime>true</BindTime>
