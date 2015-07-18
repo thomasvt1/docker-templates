@@ -11,11 +11,12 @@
   <Description>
   Headphones is an automated music downloader for NZB and Torrent, written in Python. It supports SABnzbd, NZBget, Transmission, µTorrent and Blackhole. [br]
 
- [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
- [b]/config[/b] Where headphones should store settings and configuration[br]
- [b]/downloads[/b] Map this to your downloads folder[br]
- [b]/music[/b] Map this to your music, you can use several submappings here[br]
-   </Description>
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where headphones should store settings and configuration[br]
+  [b]/downloads[/b] Map this to your downloads folder[br]
+  [b]/music[/b] Map this to your music, you can use several submappings here[br]
+  </Description>
+  <Project>https://github.com/rembo10/headphones</Project>
   <Registry>https://registry.hub.docker.com/u/linuxserver/headphones/</Registry>
   <Repository>linuxserver/headphones</Repository>
   <BindTime>true</BindTime>
