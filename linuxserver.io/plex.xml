@@ -2,13 +2,14 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Date>2015-07-09</Date>
+  <Date>2015-08-12</Date>
   <Changes>
+  [b]12.08.2015:[/b] Updated Support Thread.
   [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
   [b]03.07.2015:[/b] Fixed a mistake that allowed plex to run as user plex rather than abc (99:100). Thanks to double16 for spotting this.</Changes>
   <Name>plex</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=41333.0</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
   Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
 
