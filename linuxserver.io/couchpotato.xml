@@ -4,6 +4,9 @@
   <Category>Downloaders: MediaApp:Video</Category>
   <Date>2015-08-12</Date>
   <Changes>
+  	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]CouchPotato Change Log[/font][/center]
   [b]12.08.2015:[/b] Updated Support Thread.</Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=42149.0</Support>
   <Name>CouchPotato</Name>
