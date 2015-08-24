@@ -5,6 +5,9 @@
   <Date>2015-06-29</Date>
   <Support>http://lime-technology.com/forum/index.php?topic=41332.0</Support>
   <Name>mcmyadmin</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]McMyAdmin Change Log[/font][/center]</Changes>
   <Description>This is a mcmyadmin container with Minecraft, Spigot and Craftbukkit pre-installed. Default password for webinterface is \"password\" [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
