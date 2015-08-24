@@ -10,7 +10,7 @@
   <Name>mariadb</Name>
   <Support>TBA</Support>
   <Description>
-An Enhanced drop in replacement for Mysql
+An Enhanced drop in replacement for Mysql[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where mariadb should store databases, logs and configuration files[br]
   </Description>
@@ -53,6 +53,6 @@ An Enhanced drop in replacement for Mysql
   </Data>
 <WebUI></WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mariadb-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
