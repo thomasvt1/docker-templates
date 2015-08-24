@@ -4,6 +4,9 @@
   <Category>MediaServer:Music</Category>
   <Date>2015-07-15</Date>
   <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]HeadPhones Change Log[/font][/center]
   [b]15.07.2015:[/b] Inital Release.
   </Changes>
   <Name>Headphones</Name>
