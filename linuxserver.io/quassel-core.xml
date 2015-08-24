@@ -4,6 +4,9 @@
   <Category>Network:Messenger</Category>
   <Date>2015-07-06</Date>
   <Name>quassel-core</Name>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Quassel Core Change Log[/font][/center]</Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=41334.0</Support>
   <Description>Quassel IRC is a modern, cross-platform, distributed IRC client, meaning that one (or multiple) client(s) can attach to and detach from a central core -- much like the popular combination of screen and a text-based IRC client such as WeeChat, but graphical. Blowfish support and optional web-ui included.
   [br][br]
