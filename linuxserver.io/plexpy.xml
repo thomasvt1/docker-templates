@@ -5,7 +5,10 @@
 <Date>2015-07-16</Date> 
   <Name>plexpy</Name>
   <Overview>plexpy is a python based statistics manager for plex</Overview>
-  <Changes> [b]16.07.2015:[/b] Initial Release</Changes> 
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]PlexPy Change Log[/font][/center]
+[b]16.07.2015:[/b] Initial Release</Changes> 
   <Description>plexpy is a python based statistics manager for plex&#13;
   &#13;
   . [br]&#13;
