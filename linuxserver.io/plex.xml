@@ -48,8 +48,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version>cf9cabf6</Version>
-  <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
+<WebUI>http://[IP]:[PORT:32400]/web</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-banner.png</Banner>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-icon.png</Icon>
   <ExtraParams></ExtraParams>
