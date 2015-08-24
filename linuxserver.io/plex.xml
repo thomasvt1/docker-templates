@@ -6,7 +6,7 @@
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=5]Plex Media Server Change Log[/font][/center]
+[center][font size=4]Plex Media Server Change Log[/font][/center]
   [b]12.08.2015:[/b] Updated Support Thread.
   [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
