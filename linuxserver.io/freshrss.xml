@@ -13,7 +13,7 @@
 A free, self-hostable rss aggregator…[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   Create a user and database in your mysql/mariadb server (not root) and then follow the setup wizard in the webui.[br]
-   Use the IP address for "host" of your database server.
+   Use the IP address for "host" of your database server.[br]
   [b]/config[/b]Where freshrss should store its appdata files[br]
 </Description>
  <Overview>A free, self-hostable rss aggregator…</Overview>
