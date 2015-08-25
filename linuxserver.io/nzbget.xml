@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
-  <Date>2015-08-18</Date>
+  <Date>2015-08-25</Date>
   <Support>http://lime-technology.com/forum/index.php?topic=41335.0</Support>
   <Name>NZBGet</Name>
  <Changes> [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
