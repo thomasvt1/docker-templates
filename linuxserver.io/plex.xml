@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
-  <Date>2015-08-12</Date>
+  <Date>2015-08-28</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Plex Media Server Change Log[/font][/center]
+  [b]28.08.2015:[/b] Now uses VERSION only rather than VERSION+PLEXPASS, Failure detection on updateing plex, aswell as faster baseimage.
   [b]12.08.2015:[/b] Updated Support Thread.
   [b]09.07.2015:[/b] Now with ability to pick static versionnumber.
   [b]08.07.2015:[/b] Now with autoupdates. (Hosted by fanart.tv)
@@ -17,7 +18,7 @@
   Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. [br]
 
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]PLEXPASS[/b] Set to 1 if you do have a plexpass subscription. [br]
+  [b]VERSION[/b] Set to either latest,plexpass or a spesific version e.g. "0.9.12.11.1406-8403350" [br]
   [b]/config[/b] Where plex should store settings and metadata\logs and configuration[br]
   [b]/media[/b] Map this to your media, you can use several submappings here[br]
   </Description>
@@ -36,8 +37,8 @@
       <Value>100</Value>
     </Variable>
     <Variable>
-      <Name>PLEXPASS</Name>
-      <Value>0</Value>
+      <Name>VERSION</Name>
+      <Value>latest</Value>
     </Variable>
   </Environment>
   <Networking>
