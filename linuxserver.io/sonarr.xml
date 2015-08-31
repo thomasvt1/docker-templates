@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders: MediaApp:Video</Category>
-  <Date>2015-08-25</Date>
+  <Date>2015-08-31</Date>
   <Name>Sonarr</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
