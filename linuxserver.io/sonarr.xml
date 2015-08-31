@@ -46,6 +46,11 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
+      <HostDir>/dev/rtc</HostDir>
+      <ContainerDir>/dev/rtc</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
       <HostDir>/mnt/user/TV/</HostDir>
       <ContainerDir>/tv</ContainerDir>
       <Mode>rw</Mode>

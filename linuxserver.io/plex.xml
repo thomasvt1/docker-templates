@@ -51,11 +51,6 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/dev/rtc</HostDir>
-      <ContainerDir>/dev/rtc</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:32400]/web</WebUI>
   <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plex-banner.png</Banner>
