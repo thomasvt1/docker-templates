@@ -17,8 +17,8 @@
   </Description>
   <Overview>Server version of minetest, a free, open source alternative to minecraft.</Overview>
   <Project>http://www.minetest.net/</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/minetest/builds/</Registry>
-  <Repository>linuxserver/minetest/builds</Repository>
+  <Registry>https://hub.docker.com/r/linuxserver/minetest/</Registry>
+  <Repository>linuxserver/minetest</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
