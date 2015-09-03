@@ -55,6 +55,11 @@
       <ContainerDir>/tv</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Version>992c565c</Version>
   <WebUI>http://[IP]:[PORT:8989]/</WebUI>
