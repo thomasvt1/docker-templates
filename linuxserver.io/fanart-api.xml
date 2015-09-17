@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>True</Beta>
+<Category>Network:Other</Category>
+<Date>2015-09-17</Date>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Fanart-Api Change Log[/font][/center]
+</Changes>
+  <Name>fanartapi</Name>
+  <Support></Support>
+  <Description>image for the developement of fanart-api..</Description>
+  <Registry>https://hub.docker.com/r/linuxserver/fanart.api/</Registry>
+  <Repository>linuxserver/fanart.api</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+  <Variable>      
+  <Name>APIKEY</Name>
+      <Value>aebac606b09357758a4ca6c9ea52e1a4</Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+  <Port>
+        <HostPort>8280</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+  <Port>
+        <HostPort>8243</HostPort>
+        <ContainerPort>443</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+   </Publish>
+</Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/LnTLmXi.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
