@@ -3,7 +3,7 @@
   <Beta>False</Beta>
   <Category>Backup: Cloud: Network:Other Tools:</Category>
   <Date>2015-09-24</Date> 
-  <Changes>[b]24.09.15: [/b] Inital release.
+  <Changes>[b]24.09.15: [/b] Inital release.</Changes>
   <Name>syncthing</Name>
   <Description>Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.</Description>
   <Registry>https://hub.docker.com/r/linuxserver/docker-rutorrent/</Registry>
