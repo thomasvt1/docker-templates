@@ -9,7 +9,7 @@
 [center][font size=4]Readerself Change Log[/font][/center]
 </Changes>
   <Name>readerself</Name>
-  <Support></Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=43265.0</Support>
   <Description>Self-hosted rss reader, responsive on  desktop, tablet and mobile.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where readerself should store settings and configuration files[br]
