@@ -18,8 +18,8 @@ Change to use baseimage update script
   Create a user and database in your mysql/mariadb server (not root)[br]
    Use the IP address for "host" of your database server in the webui setup.[br]
   [b]/config[/b] Where piwigo should store its appdata files[br]</Description>
-<Registry>https://hub.docker.com/r/linuxserver/docker-piwigo/</Registry>
-<Repository>linuxserver/docker-piwigo</Repository>
+<Registry>https://hub.docker.com/r/linuxserver/piwigo/</Registry>
+<Repository>linuxserver/piwigo</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
