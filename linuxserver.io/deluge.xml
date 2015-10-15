@@ -11,7 +11,7 @@
   <Name>deluge</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42148.0</Support>
   <Description>
-  Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing:
+  Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing:[br]
   Full Encryption[br]
   WebUI[br]
   Plugin System[br]
@@ -26,6 +26,7 @@
   [b]password:[/b] deluge
   </Description>
   <Project>http://deluge-torrent.org/</Project>
+  <Overview>Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...</Overview>
   <Registry>https://registry.hub.docker.com/u/linuxserver/deluge/</Registry>
   <Repository>linuxserver/deluge</Repository>
   <BindTime>true</BindTime>
@@ -38,10 +39,6 @@
     <Variable>
       <Name>PGID</Name>
       <Value>100</Value>
-    </Variable>
-    <Variable>
-      <Name>VERSION</Name>
-      <Value>latest</Value>
     </Variable>
   </Environment>
   <Networking>
