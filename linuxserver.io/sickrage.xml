@@ -14,9 +14,9 @@
   <Description>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
-  [b]/config[/b]Where sickrage should store settings, logs and configuration[br]
-  [b]/downloads[/b]Path to your downloads folder[br]
-  [b]/tv[/b]Path to your tv-shows folder[br]
+  [b]/config[/b] Where sickrage should store settings, logs and configuration[br]
+  [b]/downloads[/b] Path to your downloads folder[br]
+  [b]/tv[/b] Path to your tv-shows folder[br]
   </Description>
   <Project>https://github.com/SiCKRAGETV/SickRage</Project>
   <Overview>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.</Overview>
