@@ -1,1 +1,1 @@
-# Nothing to see here, this is crawled automaticly by intened services.
+# Nothing to see here, this is crawled automatically by internal services.
