@@ -2,11 +2,15 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video</Category>
-  <Date>2015-08-25</Date>
+  <Date>2015-10-21</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
+[font size=4]10.21.2015[/font]
+- Rebase to python baseimage, allows use of some plugins
+(user installed only, not supported)
+- Bump to 15.2
 </Changes>
   <Name>kodi-headless</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42439</Support>
