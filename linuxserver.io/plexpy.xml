@@ -4,6 +4,7 @@
 <Category>MediaServer:Other Tools:</Category>
 <Date>2015-07-16</Date> 
   <Name>plexpy</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=42435.0</Support>
   <Overview>plexpy is a python based statistics manager for plex</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
