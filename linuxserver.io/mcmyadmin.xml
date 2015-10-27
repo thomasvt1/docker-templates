@@ -14,7 +14,7 @@
   [b]8080[/b] : The web-interface. [br]
   [b]25565[/b] : The minecraft deamon [br]</Description>
   <Project>https://www.mcmyadmin.com</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/mcmyadmin/</Registry>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/mcmyadmin2/</Registry>
   <Repository>linuxserver/mcmyadmin2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
