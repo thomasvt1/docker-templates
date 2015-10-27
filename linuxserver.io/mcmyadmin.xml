@@ -8,14 +8,14 @@
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]McMyAdmin Change Log[/font][/center]</Changes>
-  <Description>This is a mcmyadmin container with Minecraft, Spigot and Craftbukkit pre-installed. Default password for webinterface is \"password\" [br][br]
+  <Description>This is a mcmyadmin container. Default password for webinterface is \"password\" [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
   [b]8080[/b] : The web-interface. [br]
   [b]25565[/b] : The minecraft deamon [br]</Description>
   <Project>https://www.mcmyadmin.com</Project>
   <Registry>https://registry.hub.docker.com/u/linuxserver/mcmyadmin/</Registry>
-  <Repository>linuxserver/mcmyadmin</Repository>
+  <Repository>linuxserver/mcmyadmin2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -26,10 +26,6 @@
     <Variable>
       <Name>PGID</Name>
       <Value>100</Value>
-    </Variable>
-    <Variable>
-      <Name>REV</Name>
-      <Value>1.8.7</Value>
     </Variable>
   </Environment>
   <Networking>
