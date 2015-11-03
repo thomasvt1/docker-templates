@@ -10,7 +10,10 @@
   <Beta>False</Beta>
   <Category>Network:Management Tools:</Category>
   <Date>2015-11-03</Date>
-  <Changes>03.11.15: Initial release</Changes>
+  <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Unifi Change Log[/font][/center]
+03.11.15: Initial release</Changes>
   <Environment>
     <Variable>
       <Name>PUID</Name>
