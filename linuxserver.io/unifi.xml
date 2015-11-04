@@ -69,6 +69,6 @@
   <Version></Version>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <Banner>https://github.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/unifi-banner.png</Banner>
-  <Icon>http://i.imgur.com/dD9ub3n.png</Icon>
+  <Icon>https://github.com/linuxserver/docker-templates/blob/master/linuxserver.io/img/unifi-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
