@@ -3,7 +3,7 @@
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-11-06</Date>
-  <Name>plexpy</Name>
+  <Name>Apache-Reverseproxy</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
   <Overview>Reverse Proxy is a Apache based web server set up to act as a proxy with PHP web server capabilities</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
