@@ -11,7 +11,7 @@
 - Beta Release
 </Changes>
   <Support></Support>
-  <Description>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
+  <Description>Serviio is a free media server. It allows you to stream your media files (music, video or images) to renderer devices (e.g. a TV set, Bluray player, games console or mobile phone) on your connected home network.
   [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where serviio should store settings, logs and configuration[br]
