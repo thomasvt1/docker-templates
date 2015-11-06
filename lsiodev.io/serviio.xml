@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Beta>False</Beta>
+<Beta>True</Beta>
 <Category>MediaServer:Video MediaServer:Music</Category>
 <Date>2015-11-06</Date>
 <Name>serviio</Name>
