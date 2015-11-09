@@ -2,12 +2,13 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
-  <Date>2015-10-15</Date>
+  <Date>2015-11-09</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Deluge Change Log[/font][/center]
   [b]15.10.2015:[/b] Initial Release. 
+  [b]09.11.2015:[/b] Add unrar and unzip
   </Changes>
   <Name>deluge</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43430.0</Support>
