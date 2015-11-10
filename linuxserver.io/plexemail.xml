@@ -49,7 +49,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/apache-reverseproxy</HostDir>
+      <HostDir>/mnt/user/appdata/plexemail</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
