@@ -2,24 +2,24 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
-<Date>2015-11-06</Date>
-  <Name>Apache-Reverseproxy</Name>
+<Date>2015-10-11</Date>
+  <Name>plexemail</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
-  <Overview>Reverse Proxy is a Apache based web server set up to act as a proxy with PHP web server capabilities</Overview>
+  <Overview>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.
+</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
-[center][font size=4]Apache-ReverseProxy Change Log[/font][/center]
+[center][font size=4]Plexemail Change Log[/font][/center]
 [b]06.11.2015:[/b] Initial Release</Changes>
-  <Description>Reverse Proxy is a Apache based web server set up to act as a proxy with PHP web server capabilities
-  . [br]
+  <Description>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
   [b]443[/b] Standard HTTPS Port [br]
-  [b]/config[/b]Storing Configuration and the www folder[br]
+  [b]/config[/b]Storing Configuration and the cron info[br]
   </Description>
-  <Project>http://httpd.apache.org/docs/2.2/mod/mod_proxy.html</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/apache-reverseproxy/</Registry>
-  <Repository>linuxserver/apache-reverseproxy</Repository>
+  <Project>https://github.com/jakewaldron/PlexEmail</Project>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/plexemail/</Registry>
+  <Repository>linuxserver/plexemail</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -56,7 +56,6 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apache-reverseproxy-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apache-reverseproxy-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/plexemail-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
