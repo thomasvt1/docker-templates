@@ -4,7 +4,7 @@
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-10-11</Date>
   <Name>plexemail</Name>
-  <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
+  <Support>http://lime-technology.com/forum/index.php?topic=43937.0</Support>
   <Overview>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.
 </Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
