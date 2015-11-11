@@ -49,7 +49,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/plex</HostDir>
+      <HostDir>/mnt/user/appdata/plex/Library/Application\ Support</HostDir>
       <ContainerDir>/plex</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
