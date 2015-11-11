@@ -3,23 +3,22 @@
 <Beta>False</Beta>
 <Category>Network:Web Network:Proxy</Category>
 <Date>2015-11-06</Date>
-  <Name>Apache-reverseproxy</Name>
+  <Name>Apacheweb</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=43858.0</Support>
-  <Overview>Reverse Proxy is a Apache based web server set up to act as a proxy with PHP web server capabilities</Overview>
+  <Overview>This is an apache web server docker with reverse proxy services enabled. Reverse proxy gives the ability going to www.domain.com:8351 for a service, you can go direct to www.domain.com/service and also enable HTTPS.</Overview>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Apache-ReverseProxy Change Log[/font][/center]
 [b]06.11.2015:[/b] Initial Release</Changes>
-  <Description>Reverse Proxy is a Apache based web server set up to act as a proxy with PHP web server capabilities
-  . [br]
+  <Description>This is an apache web server docker with reverse proxy services enabled. Reverse proxy gives the ability going to www.domain.com:8351 for a service, you can go direct to www.domain.com/service and also enable HTTPS.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
   [b]443[/b] Standard HTTPS Port [br]
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>http://httpd.apache.org/docs/2.2/mod/mod_proxy.html</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/apache-reverseproxy/</Registry>
-  <Repository>linuxserver/apache-reverseproxy</Repository>
+  <Registry>https://registry.hub.docker.com/u/linuxserver/apacheweb/</Registry>
+  <Repository>linuxserver/apacheweb</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -49,14 +48,14 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/apache-reverseproxy</HostDir>
+      <HostDir>/mnt/user/appdata/apacheweb</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apache-reverseproxy-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apache-reverseproxy-icon.png</Icon>
+  <Banner>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apacheweb-banner.png</Banner>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/apacheweb-icon.png</Icon>
   <ExtraParams></ExtraParams>
 </Container>
