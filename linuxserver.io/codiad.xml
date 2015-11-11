@@ -7,7 +7,8 @@
   	[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Coadiad Change Log[/font][/center]
-  [b]07.11.2015:[/b] Initial Release </Changes>
+  [b]07.11.2015:[/b] Initial Release [br]
+  [b]07.11.2015:[/b] Add fix to remove collboaration warning </Changes>
   <Support>http://lime-technology.com/forum/index.php?topic=43882.0</Support>
   <Name>Codiad</Name>
   <Description>Codiad is a web-based IDE framework with a small footprint and minimal requirements.[br]
