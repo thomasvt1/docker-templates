@@ -44,7 +44,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/couchpotato/</HostDir>
+      <HostDir>/mnt/cache/appdata/beets/</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
