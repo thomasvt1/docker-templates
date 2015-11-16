@@ -14,7 +14,7 @@
     [b][span style='color: #E80000;']Directions:[/span][/b][br]
     [b]/config[/b] : Where the config file will be created.[br]
     </Description>
-  <Project></Project>
+  <Project>http://ogarproject.com/</Project>
   <Overview>An open source Agar.io server implementation, written with Node.js.</Overview>
   <Registry>https://hub.docker.com/r/lsiodev/ogar/</Registry>
   <Repository>lsiodev/ogar</Repository>
