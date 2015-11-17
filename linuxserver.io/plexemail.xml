@@ -10,7 +10,10 @@
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
 
 [center][font size=4]Plexemail Change Log[/font][/center]
-[b]06.11.2015:[/b] Initial Release</Changes>
+[b]16.11.2015:[/b] Initial copy of crontab now made by default
+[b]06.11.2015:[/b] Initial Release
+</Changes>
+
   <Description>Is a script that aggregates all new TV and movie releases for the past x days then writes to your web directory and sends out an email.[br]
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]80[/b] Standard HTTP Port [br]
