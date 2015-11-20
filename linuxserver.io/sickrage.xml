@@ -2,11 +2,13 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-<Date>2015-10-16</Date>
+<Date>2015-11-20</Date>
  <Name>sickrage</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sickrage Change Log[/font][/center]
+[font size=4]20-11-2015[/font]
+- Switch git repo
 [font size=4]16-10-2015[/font]
 - Initial Release
 </Changes>
@@ -18,7 +20,7 @@
   [b]/downloads[/b] Path to your downloads folder[br]
   [b]/tv[/b] Path to your tv-shows folder[br]
   </Description>
-  <Project>https://github.com/SiCKRAGETV/SickRage</Project>
+  <Project>https://github.com/SickRage/SickRage</Project>
   <Overview>Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/sickrage/</Registry>
   <Repository>linuxserver/sickrage</Repository>
