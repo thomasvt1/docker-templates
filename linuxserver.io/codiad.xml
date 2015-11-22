@@ -18,7 +18,7 @@
     [b]/config[/b] : Where the config file will be created.[br]
     [b]/config/projects[/b] : Where project files are stored.[br]
     </Description>
-  <Project>http://www.codiad./</Project>
+  <Project>http://codiad.com/</Project>
   <Overview>Codiad is a web-based IDE framework with a small footprint and minimal requirements.
   </Overview>
   <Registry>https://registry.hub.docker.com/u/linuxserver/codiad/</Registry>
