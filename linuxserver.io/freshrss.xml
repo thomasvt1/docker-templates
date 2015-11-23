@@ -2,12 +2,15 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Other Other:</Category>
-<Date>2015-08-24</Date>
+<Date>2015-11-23</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]Freshrss Change Log[/font][/center]</Changes>
-  <Name>freshrss</Name>
+[center][font size=4]Freshrss Change Log[/font][/center]
+[font size=4]23-11-2015[/font]
+Refresh Dependencies 
+</Changes>
+ <Name>freshrss</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42425</Support>
   <Description>
 A free, self-hostable rss aggregator…[br]
