@@ -2,12 +2,15 @@
 <Container>
   <Beta>False</Beta>
   <Category>MediaServer:Video</Category>
-  <Date>2015-10-21</Date>
+  <Date>2015-11-24</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Kodi-Headless Change Log[/font][/center]
-[font size=4]10.21.2015[/font]
+[font size=4]24.11.2015[/font]
+- Tweak update init to cater for white space and out of
+range values in VERSION variable
+[font size=4]21.10.2015[/font]
 - Rebase to python baseimage, allows use of some plugins
 (user installed only, not supported)
 - Bump to 15.2
