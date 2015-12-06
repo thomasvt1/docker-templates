@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
   <Category>Downloaders:</Category>
-  <Date>2015-11-16</Date>
+  <Date>2015-12-06</Date>
   <Changes>
   [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
   [center][font size=4]Transmission Change Log[/font][/center]
+  [b]06.12.2015:[/b] Separate mapping added for watch folder.
   [b]16.11.2015:[/b] Initial Release. 
   </Changes>
   <Name>transmission</Name>
@@ -15,6 +16,7 @@
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all transmission config files [br]
   [b]/downloads[/b] : Point to Downloads location[br]
+  [b]/watch[/b] : Point to watch folder[br]
   </Description>
   <Project>http://www.transmissionbt.com/</Project>
   <Overview>Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.</Overview>
@@ -56,6 +58,11 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/watch</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
