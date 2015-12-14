@@ -2,11 +2,12 @@
 <Container>
   <Beta>False</Beta>
 <Category>Downloaders:</Category>
-  <Date>2015-08-25</Date>
+  <Date>2015-12-14</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sabnzbd Change Log[/font][/center]
+[b]14.12.2015[/b] Bump image install to beta3
 </Changes>
   <Name>sabnzbd</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42441</Support>
