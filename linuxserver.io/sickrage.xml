@@ -2,11 +2,14 @@
 <Container>
 <Beta>False</Beta>
 <Category>Downloaders: MediaApp:Video</Category>
-<Date>2015-11-20</Date>
+<Date>2015-12-30</Date>
  <Name>sickrage</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Sickrage Change Log[/font][/center]
+[font size=4]30-12-2015[/font]
+- Build later version of unrar from source, 
+removed uneeded mako package.
 [font size=4]20-11-2015[/font]
 - Switch git repo
 [font size=4]16-10-2015[/font]
