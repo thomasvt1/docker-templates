@@ -2,11 +2,12 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Other MediaApp:Other Other: Tools:</Category>
-<Date>2015-12-23</Date>
+<Date>2016-01-23</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Mariadb Change Log[/font][/center]
+[b]23.01.2016[/b] Change mysqld_safe user to abc, better handling of unclean shutdown.
 [b]10.12.2015[/b] Remove autoupdate feature, was breaking between random versions.
 </Changes>
   <Name>mariadb</Name>

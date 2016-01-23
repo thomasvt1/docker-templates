@@ -2,11 +2,13 @@
 <Container>
 <Beta>False</Beta>
 <Category>Network:Other MediaApp:Other Other: Tools:</Category>
-<Date>2015-08-24</Date>
+<Date>2016-01-23</Date>
   <Changes>
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
-[center][font size=4]Mysql Change Log[/font][/center]</Changes>
+[center][font size=4]Mysql Change Log[/font][/center]
+[b]23.01.2016[/b] Change mysqld_safe user to abc, better handling of unclean shutdown.
+</Changes>
   <Name>mysql</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=42423</Support>
   <Description>The world's most popular open source database[br]
