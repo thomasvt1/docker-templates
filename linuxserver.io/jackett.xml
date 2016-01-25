@@ -56,6 +56,6 @@
   </Data>
 <WebUI>http://[IP]:[PORT:9117]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jackett-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jacket-icon.png</Icon>
 </Container>
 
