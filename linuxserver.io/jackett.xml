@@ -17,7 +17,7 @@
   [b]/downloads[/b] : Point to blackhole location[br]
   </Description>
   <Project>https://github.com/Jackett/Jackett</Project>
-  <Overview>Jackett is a proxy server translating queries from apps like Sonarr etc into tracker-site-specific http queries parsing the html response and sending results back to the requesting software. This allows for getting recent uploads and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic removing the burden from other apps.</Overview>
+  <Overview>Jackett is a proxy server translating queries from apps like Sonarr etc into tracker-site-specific http queries parsing the html response and sending results back to the requesting software. This allows for getting recent uploads and performing searches.</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/jackett/</Registry>
   <Repository>linuxserver/jackett</Repository>
   <BindTime>true</BindTime>
