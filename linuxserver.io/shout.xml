@@ -11,12 +11,12 @@
   </Changes>
   <Name>Shout-Irc</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=46176.0</Support>
-  <Description>The self-hosted web IRC client[br]
+  <Description>A self-hosted web IRC client[br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] : Storing all shout config files [br]
   </Description>
   <Project>http://shout-irc.com/</Project>
-  <Overview>The self-hosted web IRC client</Overview>
+  <Overview>A self-hosted web IRC client</Overview>
   <Registry>https://hub.docker.com/r/linuxserver/shout/</Registry>
   <Repository>linuxserver/shout</Repository>
   <BindTime>true</BindTime>
