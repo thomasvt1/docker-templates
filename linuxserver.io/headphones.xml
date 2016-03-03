@@ -20,7 +20,7 @@
   [b]/music[/b] Map this to your music, you can use several submappings here[br]
   </Description>
   <Project>https://github.com/rembo10/headphones</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/headphones/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/headphones/</Registry>
   <Repository>linuxserver/headphones</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

@@ -15,7 +15,7 @@
   [b]/data[/b] : Contains all the gathered data.[br]
   [b]80[/b] : The web-interface. [br]</Description>
   <Project>http://oss.oetiker.ch/smokeping/</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/smokeping</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/smokeping/</Registry>
   <Repository>linuxserver/smokeping</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

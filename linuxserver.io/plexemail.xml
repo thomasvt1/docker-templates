@@ -22,7 +22,7 @@
   [b]/config[/b]Storing Configuration and the cron info[br]
   </Description>
   <Project>https://github.com/jakewaldron/PlexEmail</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/plexemail/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/plexemail/</Registry>
   <Repository>linuxserver/plexemail</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

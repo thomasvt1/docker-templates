@@ -29,7 +29,7 @@
   </Description>
   <Project>http://deluge-torrent.org/</Project>
   <Overview>Deluge is a lightweight, Free Software, cross-platform BitTorrent client providing: Full Encryption, WebUI, Plugin System, Much more...</Overview>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/deluge/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/deluge/</Registry>
   <Repository>linuxserver/deluge</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

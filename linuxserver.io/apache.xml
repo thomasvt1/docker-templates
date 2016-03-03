@@ -17,7 +17,7 @@
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>http://httpd.apache.org/docs/2.2/mod/mod_proxy.html</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/apache/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/apache/</Registry>
   <Repository>linuxserver/apache</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>

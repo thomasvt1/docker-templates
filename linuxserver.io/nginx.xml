@@ -17,7 +17,7 @@
   [b]/config[/b]Storing Configuration and the www folder[br]
   </Description>
   <Project>https://www.nginx.com/</Project>
-  <Registry>https://registry.hub.docker.com/u/linuxserver/nginx/</Registry>
+  <Registry>https://hub.docker.com/r/linuxserver/nginx/</Registry>
   <Repository>linuxserver/nginx</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
