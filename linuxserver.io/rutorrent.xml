@@ -7,7 +7,8 @@
     [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]Rutorrent Change Log[/font][/center]
-  </Changes>
+[b]08.03.2016[/b] Initial Release  
+</Changes>
   <Name>rutorrent</Name>
   <Support></Support>
   <Description>
@@ -41,8 +42,58 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>45566-45576</HostPort>
-        <ContainerPort>45566-45576</ContainerPort>
+        <HostPort>45566</HostPort>
+        <ContainerPort>45566</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45567</HostPort>
+        <ContainerPort>45567</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45568</HostPort>
+        <ContainerPort>45568</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45569</HostPort>
+        <ContainerPort>45569</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45570</HostPort>
+        <ContainerPort>45570</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45571</HostPort>
+        <ContainerPort>45571</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45572</HostPort>
+        <ContainerPort>45572</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45573</HostPort>
+        <ContainerPort>45573</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45574</HostPort>
+        <ContainerPort>45574</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45575</HostPort>
+        <ContainerPort>45575</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>45576</HostPort>
+        <ContainerPort>45576</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
