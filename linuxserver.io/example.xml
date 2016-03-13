@@ -10,7 +10,7 @@
   [center][font size=4] Change Log[/font][/center]
   </Changes>
 <!-- name preferably in lowercase  -->
-  <Name></Name>
+  <Name>test/test</Name>
   <Support></Support>
   <Description> [br]
   [br][br][b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
@@ -21,8 +21,8 @@
 <!-- DON'T use any "&" in the overview section  -->
   <Overview></Overview>
 <!-- dockerhub link  -->
-  <Registry></Registry>
-  <Repository></Repository>
+  <Registry>test/test</Registry>
+  <Repository>test/test</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   
