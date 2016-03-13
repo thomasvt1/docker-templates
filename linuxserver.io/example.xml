@@ -25,7 +25,7 @@
   <Repository>test/test</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  
+  <Network Default="bridge">bridge</Network>  
   <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="Set to Desired User ID" 
 Type="Variable" Display="always" Required="true" Mask="false">99</Config>
   
