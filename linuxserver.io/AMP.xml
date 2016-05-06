@@ -3,21 +3,21 @@
   <Beta>False</Beta>
   <Category>Network:Other Other:</Category>
   <Date>2016-02-13</Date>
-  <Support>http://lime-technology.com/forum/index.php?topic=43600.0</Support>
-  <Name>mcmyadmin2</Name>
+  <Support>http://thomasvt.xyz</Support>
+  <Name>AMP</Name>
   <Changes>[center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
  
 [center][font size=4]McMyAdmin Change Log[/font][/center]
 [b]13.02.2016:[/b] Switch to Java 8 [br]
 </Changes>
-  <Description>This is a mcmyadmin container. Default password for webinterface is \"password\" [br][br]
+  <Description>This is a AMP container. Default password for webinterface is \"password\" [br][br]
   [b][u][span style=\'color: #E80000;\']Configuration[/span][/u][/b][br]
   [b]/minecraft[/b] : Storing all your files jars\\maps\\plugins\\configs [br]
   [b]8080[/b] : The web-interface. [br]
   [b]25565[/b] : The minecraft deamon [br]</Description>
   <Project>https://www.mcmyadmin.com</Project>
-  <Registry>https://hub.docker.com/r/linuxserver/mcmyadmin2/</Registry>
-  <Repository>linuxserver/mcmyadmin2</Repository>
+  <Registry>https://hub.docker.com/r/bril0/docker-ampmine/</Registry>
+  <Repository>thomasvt1/docker-amp</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
