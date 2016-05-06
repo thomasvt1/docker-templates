@@ -17,7 +17,8 @@
   [b]25565[/b] : The minecraft deamon [br]</Description>
   <Project>https://www.mcmyadmin.com</Project>
   <Registry>https://hub.docker.com/r/bril0/docker-ampmine/</Registry>
-  <Repository>thomasvt1/docker-amp</Repository>
+  <GitHub>https://github.com/thomasvt1/docker-amp</GitHub>
+  <Repository>bril0/docker-ampmine/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
