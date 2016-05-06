@@ -47,8 +47,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/mcmyadmin</HostDir>
-      <ContainerDir>/minecraft</ContainerDir>
+      <HostDir>/mnt/user/appdata/amp</HostDir>
+      <ContainerDir>/amp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
